@@ -1,5 +1,5 @@
 {
-	"name": "json-schema-defaults",
+	"name": "@nodecg/json-schema-defaults",
 	"version": "1.0.0",
 	"description": "A library and CLI tool for generating a default value from a JSON schema",
 	"homepage": "https://github.com/nodecg/json-schema-defaults",
