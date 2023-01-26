@@ -1,0 +1,45 @@
+{
+	"name": "json-schema-defaults",
+	"version": "1.0.0",
+	"description": "A library and CLI tool for generating a default value from a JSON schema",
+	"homepage": "https://github.com/nodecg/json-schema-defaults",
+	"author": {
+		"name": "The NodeCG Project",
+		"email": "alex@nodecg.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nodecg/json-schema-defaults.git"
+	},
+	"bugs": {
+		"url": "https://github.com/nodecg/json-schema-defaults/issues"
+	},
+	"main": "index.js",
+	"bin": {
+		"json-schema-defaults": "bin/defaults.js"
+	},
+	"scripts": {
+		"test": "jest"
+	},
+	"keywords": [
+		"json",
+		"schema"
+	],
+	"license": "MIT",
+	"dependencies": {
+		"argparse": "^1.0.9"
+	},
+	"files": [
+		"bin",
+		"dist",
+		"index.js",
+		"package-lock.json"
+	],
+	"devDependencies": {
+		"@jest/globals": "^29.4.1",
+		"jest": "^29.4.1",
+		"ts-jest": "^29.0.5",
+		"ts-node": "^10.9.1",
+		"typescript": "^4.9.4"
+	}
+}
