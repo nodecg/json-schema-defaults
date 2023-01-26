@@ -4,33 +4,17 @@
 
 ## Installation
 
-- npm
-
-  ```sh
-  npm install @nodecg/json-schema-defaults
-  ```
+```sh
+npm install @nodecg/json-schema-defaults
+```
 
 ## Usage
 
-- CommonJS (node.js)
+- Node (TypeScript/ESM)
 
   ```js
-  var defaults = require('json-schema-defaults');
+  import defaults from 'json-schema-defaults';
   defaults({ ... });
-  ```
-
-- RequireJS
-
-  ```js
-  // in require.js config
-  paths: {
-    'defaults': './path/to/lib/defaults.js'
-  }
-
-  // in a file
-  define(['defaults'], function(defaults) {
-    defaults({ ... });
-  });
   ```
 
 - CLI
@@ -63,8 +47,8 @@
 
 Call `defaults` with JSON Schema. The default values will be extracted as a JSON.
 
-```js
-var json = defaults({
+```ts
+const json = defaults({
   "title": "Album Options",
   "type": "object",
   "properties": {
