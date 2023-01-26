@@ -19,7 +19,8 @@
 		"json-schema-defaults": "bin/defaults.js"
 	},
 	"scripts": {
-		"test": "jest"
+		"test": "jest",
+		"build": "tsc -b"
 	},
 	"keywords": [
 		"json",

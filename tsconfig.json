@@ -1,5 +1,6 @@
 {
 	"include": ["src/**/*.ts"],
+	"exclude": ["**/*.spec.ts"],
 	"compilerOptions": {
 		"strict": true,
 		"outDir": "dist",
