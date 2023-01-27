@@ -1,1 +1,1 @@
-module.exports = require('./dist/lib/defaults')
+module.exports = require('./dist/defaults')
