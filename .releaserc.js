@@ -14,7 +14,12 @@ module.exports = {
 		],
 		'@semantic-release/changelog',
 		'@semantic-release/npm',
-		'@semantic-release/github',
+		[
+			'@semantic-release/github',
+			{
+				branches: ['main'],
+			},
+		],
 		'@semantic-release/git',
 	],
 }
