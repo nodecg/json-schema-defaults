@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/nodecg/json-schema-defaults/compare/v1.0.0...v1.0.1) (2023-01-27)
+
+
+### Bug Fixes
+
+* include types in build output ([74f810b](https://github.com/nodecg/json-schema-defaults/commit/74f810b2bc0fa957f54370811a11ff29d22d82f4))
+
 ## 1.0.0 (2023-01-27)
 
 
