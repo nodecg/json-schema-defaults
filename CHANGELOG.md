@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/nodecg/json-schema-defaults/compare/v1.0.1...v1.0.2) (2023-01-27)
+
+
+### Bug Fixes
+
+* paths ([204efac](https://github.com/nodecg/json-schema-defaults/commit/204efacb3d846ac0ba0b5f698f70980c5162ea52))
+
 ## [1.0.1](https://github.com/nodecg/json-schema-defaults/compare/v1.0.0...v1.0.1) (2023-01-27)
 
 
