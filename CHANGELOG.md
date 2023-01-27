@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/nodecg/json-schema-defaults/compare/v1.0.3...v1.0.4) (2023-01-27)
+
+
+### Bug Fixes
+
+* types again ([be64e03](https://github.com/nodecg/json-schema-defaults/commit/be64e0399d9645f171a4cf906c023425de7df837))
+
 ## [1.0.3](https://github.com/nodecg/json-schema-defaults/compare/v1.0.2...v1.0.3) (2023-01-27)
 
 
