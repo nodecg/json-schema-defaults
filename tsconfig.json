@@ -4,6 +4,7 @@
 	"compilerOptions": {
 		"strict": true,
 		"outDir": "dist",
-		"esModuleInterop": true
+		"esModuleInterop": true,
+		"declaration": true
 	}
 }
